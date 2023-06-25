@@ -1,5 +1,5 @@
+import { axiosClassic } from '@/api/axios'
 import { IAuthData } from './auth.helper'
-import { axiosClassic } from '@/app/api/axios'
 
 export const AuthService = {
 	async login(email: string, password: string) {
