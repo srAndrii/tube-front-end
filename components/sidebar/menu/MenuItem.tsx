@@ -12,7 +12,7 @@ export const MenuItem: FC<{ item: IMenuItem }> = ({ item }) => {
 	const { user } = useAuth()
 	const pathname = usePathname()
 
-	if (item.link === 'my-channel')
+	if (item.link === '/my-channel')
 		if (!user) return null
 		else item.link = `/c/${user?.id}`
 
