@@ -1,5 +1,3 @@
-'use server'
-
 import { IconType } from 'react-icons'
 
 export interface IMenuItem {

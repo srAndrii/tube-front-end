@@ -1,3 +1,5 @@
+'use client'
+
 import { IMenuItem } from './menu.interface'
 import { HiChartBar, HiCollection, HiHome, HiStar } from 'react-icons/hi'
 

@@ -1,3 +1,5 @@
+'use client'
+
 import styles from './Sidebar.module.scss'
 import Menu from './menu/Menu'
 import { menu } from './menu/menu.data'
