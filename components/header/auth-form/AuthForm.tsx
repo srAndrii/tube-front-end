@@ -1,3 +1,5 @@
+'use client'
+
 import stylesIcon from '../icons-right/IconsRight.module.scss'
 import styles from './AuthForm.module.scss'
 import { IAuthFields } from './auth-form.interface'
