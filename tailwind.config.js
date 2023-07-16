@@ -41,26 +41,25 @@ module.exports = {
 						opacity: 1,
 						transform: 'scale(1)'
 					}
-				},
-				animation: {
-					fade: 'fade .5s ease-in-out',
-					scaleIn: 'scaleIn .35s ease-in-out'
-				},
-				fontSize: {
-					xs: '0.9rem',
-					sm: '1rem',
-					xs: '0.9rem',
-					tiny: '1.2rem',
-					base: '1.4rem',
-					lg: '1.5rem',
-					xl: '1.6rem',
-					'2xl': '1.75rem',
-					'3xl': '1.9rem',
-					'4xl': '2.4rem',
-					'5xl': '3.5rem',
-					'6xl': '4.5rem',
-					'7xl': '5.5rem'
 				}
+			},
+			animation: {
+				fade: 'fade .5s ease-in-out',
+				scaleIn: 'scaleIn .35s ease-in-out'
+			},
+			fontSize: {
+				xs: '0.9rem',
+				sm: '1rem',
+				tiny: '1.2rem',
+				base: '1.4rem',
+				lg: '1.5rem',
+				xl: '1.6rem',
+				'2xl': '1.75rem',
+				'3xl': '1.9rem',
+				'4xl': '2.4rem',
+				'5xl': '3.5rem',
+				'6xl': '4.5rem',
+				'7xl': '5.5rem'
 			}
 		}
 	},
