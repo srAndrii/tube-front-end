@@ -2,6 +2,7 @@ import styles from './Layout.module.scss'
 import './globals.scss'
 import Header from '@/components/header/Header'
 import Sidebar from '@/components/sidebar/Sidebar'
+import { Providers } from '@/store/provider'
 
 export const metadata = {
 	title: 'Tube Home Page',
@@ -16,13 +17,15 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body>
-				<main className={styles.main}>
-					<Sidebar />
-					<section className={styles.content}>
-						<Header />
-						<div className={styles.wrapper}>{children}</div>
-					</section>
-				</main>
+				<Providers>
+					<main className={styles.main}>
+						<Sidebar />
+						<section className={styles.content}>
+							<Header />
+							<div className={styles.wrapper}>{children}</div>
+						</section>
+					</main>
+				</Providers>
 			</body>
 		</html>
 	)

@@ -2,7 +2,7 @@ import { IAuthFields } from '@/components/header/auth-form/auth-form.interface'
 import { IAuthData } from '@/service/auth/auth.helper'
 import { AuthService } from '@/service/auth/auth.services'
 import { toastError } from '@/utils/api.utils'
-import { createAsyncThunk } from '@reduxjs/toolkit/src/createAsyncThunk'
+import { createAsyncThunk } from '@reduxjs/toolkit'
 import { toastr } from 'react-redux-toastr'
 
 export const register = createAsyncThunk<IAuthData, IAuthFields>(
