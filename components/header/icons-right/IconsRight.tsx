@@ -1,3 +1,5 @@
+'use client'
+
 import AuthForm from '../auth-form/AuthForm'
 import ProfileMenu from '../profile-menu/ProfileMenu'
 import UploadVideo from '../upload-video/UploadVideo'

@@ -1,3 +1,4 @@
+"use client"
 import { rootReducer } from './root-reducer'
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
 import {
